@@ -16,8 +16,6 @@ pip install -r /tmp/src/requirements.txt
 
 echo " -----> Installing npm packages."
 
-npm config ls -l
-ls -la
 npm install -g
 
 # Copy global JupyterHub config file into place.
