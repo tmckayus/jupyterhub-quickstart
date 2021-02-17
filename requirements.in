@@ -1,14 +1,8 @@
-flit-core==3.0.0
-flit==3.0.0
-importlib-metadata==3.4.0
 kubernetes==11.0.0
 jupyterhub==1.2.1
 jupyterhub-kubespawner==0.14.1
 jupyterhub-tmpauthenticator==0.6
 jupyterhub-ldapauthenticator==1.2.2
 openshift==0.11.2
-pydateutil==0.1.1
-ruamel.yaml.clib==0.2.2
-ruamel.yaml==0.16.12
-typing-extensions==3.7.4.3
 wrapt==1.12.1
+cryptography==3.3.1
