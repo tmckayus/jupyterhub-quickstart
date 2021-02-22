@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "configurable-http-proxy": "^4.2.2"
+    "configurable-http-proxy": "^4.2.3"
   }
 }
