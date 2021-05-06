@@ -12,6 +12,10 @@ PATH=$PATH:/opt/app-root/scripts
 
 . /opt/app-root/etc/jupyterhub_config.sh
 
+# Upgrade DB if needed
+
+jupyterhub upgrade-db -f /opt/app-root/etc/jupyterhub_config.py
+
 # Start the JupyterHub instance.
 
 exec jupyterhub -f /opt/app-root/etc/jupyterhub_config.py
